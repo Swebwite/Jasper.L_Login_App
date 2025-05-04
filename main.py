@@ -21,7 +21,6 @@ def login():
             return True
     else:
         print('Wrong username or password, try again')
-        selection()
 
 def register():
     ## registering a new user to database
